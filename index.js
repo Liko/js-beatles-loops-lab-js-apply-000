@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
-  myArray = []
+  var myArray = []
   
   for (var i = 0; i < musicians.length; i++) {
     myArray.put(`${musicians[i]} plays ${instruments[i]}`)
@@ -10,8 +10,8 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  count = 0
-  myArray = []
+  var count = 0
+  var myArray = []
   
   while (count < facts.length) {
     myArray.put(`${facts[count]}!!!`)
@@ -22,7 +22,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(num) {
-  myArray = []
+  var myArray = []
   
   do {
     myArray.put("I love the Beatles!")
