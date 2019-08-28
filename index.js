@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
   
   while (count < facts.length) {
     myArray.put(`${facts[count]}!!!`)
-    count++
+    count += 1
   }
   
   return myArray
